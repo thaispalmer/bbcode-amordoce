@@ -1,0 +1,268 @@
+#inputCode {
+    resize: vertical;
+    height: 300px;
+}
+.lineBorder {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+.about {
+    font-size: 0.8em;
+    color: #aaa;
+}
+#errContainer {
+    color: #d00;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+#errMsgs {
+    margin-bottom: 0.5em;
+}
+
+/** Tags AD **/
+#output > div {
+    white-space: auto !important;
+}
+#output h4, #output h5, #output h6 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    vertical-align: baseline;
+    background: transparent none repeat scroll 0% 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    letter-spacing: 0;
+}
+#output div {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    vertical-align: baseline;
+    background: transparent none repeat scroll 0% 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+}
+#output div.code {
+    border: 1px dashed #000;
+}
+#output div.code > h4 {
+    background-color: #FFC0CB;
+    padding: 3px;
+    font-weight: normal;
+}
+#output div.code > div {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#output div.code > div.scrollbox {
+    overflow-y: scroll;
+}
+#output div.code pre {
+    margin: 0;
+}
+#output span {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    vertical-align: baseline;
+    background: transparent none repeat scroll 0% 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 20px;
+    color: #000;
+    font-size: inherit;
+}
+#output span.pun_title1 {
+    background-color: #B7D671;
+    color: #FFF;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+#output span.pun_title2 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FA3467;
+    text-transform: uppercase;
+}
+#output blockquote, #output pre {
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    vertical-align: baseline;
+    background: transparent none repeat scroll 0% 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+}
+#output blockquote {
+    margin: 5px;
+    border: 1px dashed #000;
+    background-color: #FFE5F9;
+    quotes: none;
+}
+#output h4.punmob_quote {
+    background: #FFC0CB none repeat scroll 0% 0%;
+    padding: 3px;
+    text-decoration: underline;
+    font-weight: normal;
+    text-align: left;
+}
+#output span.punmob_quote {
+    display: block;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#output h4.punmob_spoil {
+    background-color: #FFC0CB;
+    padding: 3px;
+    text-align: left;
+    font-weight: bold;
+}
+#output span.punmob_spoil {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    background-color: #FFE5F9;
+}
+
+/** Post AD simulado **/
+#AD-post {
+    margin-top: 20px;
+    background: url('http://amordoce.com/theme/client/img/bg.jpg') repeat 0 0 transparent;
+    padding: 10px 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    display: none;
+}
+#AD-post .wrapper {
+    width: 735px;
+    margin: 0 auto;
+    border: 1px solid #e4dbd5;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 #e4dbd5;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+#AD-post .post-container {
+    border: 1px solid #e7d1c0;
+    background: white;
+    clear: both;
+}
+#AD-post .post-container > h2 {
+    display: block;
+    background-color: #eee7e2;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    height: 20px;
+    border-bottom: none;
+    line-height: normal;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+#AD-post .post-container > h2 span {
+    float: right;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: normal;
+    font-family: arial;
+    margin-left: 10px;
+}
+#AD-post .post-container > h2 > span > span {
+    font-family: Arial;
+    font-size: 11px;
+    color: black;
+    font-style: normal;
+    float: right;
+    margin-left: 5px;
+    text-transform: none;
+}
+#AD-post .clearer {
+    clear: both;
+}
+#AD-post .author {
+    width: 167px;
+    float: left;
+    background-color: #e8ded5;
+    margin-top: -20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#AD-post .author_name {
+    text-align: center;
+    border-bottom: 1px solid #666;
+    padding-bottom: 2px;
+    overflow: hidden;
+    color: #fa3467;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#AD-post .author_title {
+    margin-top: 5px;
+    clear: both;
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    color: #799a2d;
+    font-weight: bold;
+}
+#AD-post .author_avatar {
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#AD-post .author_infos {
+    margin-top: 5px;
+    display: block;
+    border-top: 1px solid #c9b4a6;
+    font-size: 11px;
+}
+#AD-post .post {
+    padding: 2px 5px;
+    border-left: solid #e8ded5 167px;
+    box-sizing: border-box;
+}
+#AD-post .author_bottom {
+    float: left;
+    width: 167px;
+    background-color: #e8ded5;
+    color: #666;
+    height: 20px;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    color: #799a2d;
+    font-weight: bold;
+}
+#AD-post .post_bottom {
+    text-align: justify;
+    color: #252525;
+    font-size: 12px;
+    line-height: 1.7em;
+    float: right;
+    width: 544px;
+    background-color: #c7bab2;
+    box-sizing: border-box;
+    text-decoration: underline;
+    padding: 0 6px;
+}
